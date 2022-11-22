@@ -33,3 +33,5 @@ const HOC = ({ children, headerTitle = "NusaTur" }) => {
 
 export default HOC;
 >>>>>>> 0d15e8b (rebuild UI)
+
+export default HOC;

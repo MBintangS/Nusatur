@@ -19,12 +19,11 @@ import HOC from "../components/HOC";
 import "../styles/styles.css";
 
 const Destinations = () => {
-    return (
-        <HOC headerTitle="Destinations">
-            <h1 className="beranda">Halaman Destinations</h1>
-        </HOC>
-    );
+  return (
+    <HOC headerTitle="Destinations">
+      <h1 className="beranda">Halaman Destinations</h1>
+    </HOC>
+  );
 };
 
 export default Destinations;
->>>>>>> 0d15e8b (rebuild UI)
