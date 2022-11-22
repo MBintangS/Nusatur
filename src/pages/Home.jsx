@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Container } from "react-bootstrap";
 import HOC from "../components/HOC";
 import Hero from "../components/Hero";
@@ -17,6 +18,16 @@ const Home = () => {
             <Rekomendasi />
         </HOC>
         
+=======
+import HOC from "../components/HOC";
+import "../styles/styles.css";
+
+const Home = () => {
+    return (
+        <HOC>
+            <h1 className="beranda">Halaman Home</h1>
+        </HOC>
+>>>>>>> 0d15e8b (rebuild UI)
     );
 };
 
