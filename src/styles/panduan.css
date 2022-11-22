@@ -1,0 +1,28 @@
+
+.grid-panduan {
+    display: grid;
+    grid-template-rows: repeat(8, 50px);
+    margin-top: 40px;
+}
+
+.shapelayanan {
+    width: 3px;
+     height: 477px;
+     background:#D10000;
+     border-radius: 5px;
+     display: flex;
+     margin: 0px auto;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background: #D10000;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+.imgwayang {
+    position: absolute;
+    left: -100px;
+}
