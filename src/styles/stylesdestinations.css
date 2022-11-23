@@ -1,0 +1,29 @@
+/* Popular Places */
+.popularplaces-title {
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+.garis-bawah-popularplaces {
+    background: #D10000;
+    width: 204px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.imgpopularplaces {
+    width: 100%;
+}
+
+/* Daftar Kota */
+.daftarkota-title {
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.garis-bawah-daftarkota {
+    background: #D10000;
+    width: 558px;
+    height: 5px;
+    border-radius: 5px;
+}

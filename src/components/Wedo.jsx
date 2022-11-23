@@ -1,5 +1,6 @@
 import "../styles/stylesaboutus.css";
 import Wedo from "../img/wedo.png";
+import Wayang1 from "../img/wayang1.png";
 
 const Wedocomp = () => {
   return (
@@ -17,6 +18,7 @@ const Wedocomp = () => {
         </div>
         <img src={Wedo} alt="Who We Do" className="auimgwedo"></img>
       </div>
+      <img src={Wayang1} alt="Wayang 1" className="wayang-position-wedo" />
     </section>
   );
 };
