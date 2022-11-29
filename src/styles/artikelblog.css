@@ -1,0 +1,94 @@
+.pagination-outer{  
+    text-align: center; 
+    margin-top: 70px; 
+} 
+ 
+.pagination{ 
+    font-family: 'Ubuntu', sans-serif; 
+    display: inline-flex; 
+} 
+.pagination li a.page-link{ 
+    color: #121212; 
+    background: transparent; 
+    font-size: 22px; 
+    font-weight: 500; 
+    line-height: 29px; 
+    height: 30px; 
+    width: 30px; 
+    margin: 0 7px; 
+    padding: 0; 
+    border: none; 
+    border-radius: 0; 
+    display: block; 
+    position: relative; 
+    z-index: 1; 
+    transition: all 0.3s ease 0s; 
+} 
+.pagination li.active a.page-link, 
+.pagination li a.page-link:hover, 
+.pagination li.active a.page-link:hover, 
+.pagination li a.page-link:focus, 
+.pagination li.active a.page-link:focus{ 
+    color: #fff; 
+    background: transparent; 
+    border: none; 
+} 
+.pagination li a.page-link:before, 
+.pagination li a.page-link:after{ 
+    content: ''; 
+    background-color: #D10000; 
+    border-radius: 5px 0; 
+    transform: scale(0); 
+    transform-origin: top right; 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    z-index: -1; 
+    /* transition: all 0.3s ease 0s; */ 
+} 
+.pagination li a.page-link:after{ 
+    border-radius: 0 100px; 
+    transform-origin: left top; 
+} 
+.pagination li a.page-link:hover:before, 
+.pagination li a.page-link:focus:before, 
+.pagination li.active a.page-link:before, 
+.pagination li a.page-link:hover:after, 
+.pagination li a.page-link:focus:after, 
+.pagination li.active a.page-link:after{ 
+    transform: scale(1); 
+} 
+@media only screen and (max-width: 480px){ 
+    .pagination{ 
+        font-size: 0; 
+        display: block; 
+    } 
+    .pagination li{ 
+        display: inline-block; 
+        margin: 0 0 15px 
+    } 
+}
+
+.cardblog {
+    margin-top: 200px;
+    grid-template-columns: 350px 350px 350px;
+    
+}
+
+.img-alrtikel-pict {
+    width: 318px;
+    border-radius: 10px;
+    margin-top: auto;
+    display: flex;
+}
+
+.row, col {
+    align-items: center;
+    justify-content: center;
+}
+
+.content-card-blog{
+    margin-left: 15px;
+}

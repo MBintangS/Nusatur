@@ -1,0 +1,130 @@
+.grid-line-1{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grid-line-2{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.container-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* card kiri atas */
+.container-info-1{
+    position: relative;
+    width: 620px;
+    height: 397px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+
+.content-info-title-1{
+    position: absolute;
+    right: 0;
+    width: 362px;
+    height: 69px;
+    background: #D10000;
+    border-radius: 0px 50px;
+}
+
+.content-info-title-1 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.list-info-title-1{
+    position: absolute;
+    left: 10%;
+    top: 30%
+}
+
+.list-info-title-1 ul{
+    font-size: 24px;
+}
+
+
+/* card kanan */
+.container-info-2{
+    position: relative;
+    width: 620px;
+    height: 829px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    grid-row: auto / span 2;
+}
+
+.content-info-title-2{
+    position: absolute;
+    width: 362px;
+    height: 69px;
+    background: #D10000;
+    border-radius: 50px 0;
+}
+
+.content-info-title-2 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* itenerary info */
+
+.itenerary-info{
+    margin-top: 100px;
+    width: 500px;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.btn-infodetail button{
+    width: 363px;
+    height: 76px;
+    background: #D10000;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    margin-top: 50px;
+    transition: all ease-out .2s;
+}
+
+.btn-infodetail button:hover{
+    width: 363px;
+    height: 76px;
+    background: transparent;
+    border: solid #D10000;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 24px;
+    color: #D10000;
+    margin-top: 50px;
+}
+
+.garismerahinfo{
+    width: 200px;
+    height: 5px;
+    background: #D10000;
+}
+

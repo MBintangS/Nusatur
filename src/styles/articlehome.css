@@ -1,0 +1,46 @@
+.garismeraharticlehome {
+    width: 300px;
+    height: 5px;
+    background: #D10000;
+    border-radius: 10px;
+
+}
+
+.card-article-1{
+    width: 400px;
+    height: 250px;
+    background-image: url(../img/imgarticle1.png);
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    
+}
+
+.card-article-2{
+    width: 400px;
+    height: 250px;
+    background-image: url(../img/imgarticle2.png);
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    
+}
+
+.card-article-3{
+    width: 400px;
+    height: 250px;
+    background-image: url(../img/imgarticle3.png);
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    
+}
+
+.konten-article{
+    margin-left: 15px;
+    width: 266px;
+    position: absolute;
+    bottom: 5%;
+}
+
+

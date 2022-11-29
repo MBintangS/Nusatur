@@ -1,5 +1,6 @@
 body {
     font-family: "Poppins";
     background-color: #f3f4f3;
-    height: 4000px
+    /* height: 6500px; */
+    overflow-x: hidden;
   };

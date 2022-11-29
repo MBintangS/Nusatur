@@ -1,0 +1,146 @@
+.gallery > section > img {
+  object-fit: cover;
+}
+
+.gallery-1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gallery-2-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.gallery-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.gallery-2-bottom {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery-3 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 30px;
+    position: absolute;
+    width: 184px;
+    height: 49px;
+    left: 660px;
+    top: 2160px;
+    background: #D10000;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+ .button button:hover{
+    width: 125px;
+    height: 37px;
+    border: none;
+    margin-bottom: 20px;
+    background-color:red;
+}
+.button:active {
+    background-color: red;
+    transform: translateY(4px);
+} */
+
+.btn-gallery button {
+  margin-top: 50px;
+  width: 184px;
+  height: 49px;
+  background: #D10000;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #F3F3F3;
+  border: none;
+  transition: all ease-out .3s;
+}
+
+.btn-gallery button:active {
+  margin-top: 50px;
+  width: 184px;
+  height: 49px;
+  background: #D10000;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #F3F3F3;
+  border: none;
+  transition: all ease-out .1s;
+  box-shadow: 0 5px #D10000;
+  transform: translateY(6px);
+}
+
+.btn-gallery button:hover {
+  margin-top: 50px;
+  width: 184px;
+  height: 49px;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #D10000;
+  border: solid #D10000;
+}
+
+
+
+/*Img*/
+
+.container-img{
+    position: relative;
+    text-align: center;
+}
+
+.contentimg p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    display: none;
+    transition: all ease-out .2s;
+}
+
+
+
+.container-img:hover .contentimg p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    display: block;
+    
+}

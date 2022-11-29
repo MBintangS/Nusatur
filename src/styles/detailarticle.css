@@ -1,0 +1,11 @@
+.row-article{
+    float: left;
+}
+
+.column1-article{
+    width: 70%;
+}
+
+.column2-article{
+    width: 30%;
+}

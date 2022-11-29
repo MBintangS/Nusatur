@@ -1,0 +1,147 @@
+/* Popular Places */
+.popularplaces-title {
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+.garis-bawah-popularplaces {
+    background: #D10000;
+    width: 204px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.imgpopularplaces {
+    width: 100%;
+}
+
+/* Daftar Kota */
+.daftarkota-title {
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.garis-bawah-daftarkota {
+    background: #D10000;
+    width: 558px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.card-kota {
+    position: relative;
+    width: 295px;
+    height: 295px;
+    overflow: hidden;
+    
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.img-kota-pict {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-kota-text p {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -0%);
+    color: white;
+    font-size: 50px;
+}
+
+.card-popularplaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Pagination */
+/* .pagination-destinations-luar{
+    justify-content: center;
+}
+
+.pagination-destinations {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    background-color: #F3F3F3;
+} */
+
+/**/
+.pagination-outer{ 
+    text-align: center;
+    margin-top: 70px;
+}
+
+.pagination{
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-flex;
+}
+.pagination li a.page-link{
+    color: #121212;
+    background: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    height: 30px;
+    width: 30px;
+    margin: 0 7px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    display: block;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.pagination li.active a.page-link,
+.pagination li a.page-link:hover,
+.pagination li.active a.page-link:hover,
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:focus{
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+.pagination li a.page-link:before,
+.pagination li a.page-link:after{
+    content: '';
+    background-color: #D10000;
+    border-radius: 5px 0;
+    transform: scale(0);
+    transform-origin: top right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    /* transition: all 0.3s ease 0s; */
+}
+.pagination li a.page-link:after{
+    border-radius: 0 100px;
+    transform-origin: left top;
+}
+.pagination li a.page-link:hover:before,
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:before,
+.pagination li a.page-link:hover:after,
+.pagination li a.page-link:focus:after,
+.pagination li.active a.page-link:after{
+    transform: scale(1);
+}
+@media only screen and (max-width: 480px){
+    .pagination{
+        font-size: 0;
+        display: block;
+    }
+    .pagination li{
+        display: inline-block;
+        margin: 0 0 15px
+    }
+}

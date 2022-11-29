@@ -1,0 +1,24 @@
+.galleryimg {
+  height: auto;
+  background-size: cover;
+}
+.galleryWrapper {
+}
+
+.fotoImage {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.images {
+  height: 500px;
+}
+.saman {
+  position: absolute;
+  width: 808px;
+  height: 317px;
+  left: 108px;
+  top: 921px;
+}

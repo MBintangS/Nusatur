@@ -7,8 +7,36 @@
 
 }
 
-.card-btn{
+
+.btn-rekomendasi button{
     background-color: #D10000;
+    width: 125px;
+    height: 37px;
     border: none;
-    font-size: 16px;
+    margin-bottom: 20px;
+    transition: all ease-out 0.3s;
+}
+
+
+.btn-navlink-rec{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.btn-navlink-rec:hover{
+    background-color: transparent;
+    color: #D10000;
+    text-decoration: none;
+}
+
+.btn-rekomendasi button:hover{
+    width: 125px;
+    height: 37px;
+    border: none;
+    margin-bottom: 20px;
+    border: solid #D10000;
+    color: #D10000;
+    background: transparent;
+    color: #D10000;
+    
 }

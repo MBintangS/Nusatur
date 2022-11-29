@@ -1,0 +1,221 @@
+/* About Us Hero */
+.auheropict {
+    width: 100%;
+}
+
+.auherotext {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+}
+
+/* Who We Are Card */
+.weare {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.autextweare h1 {
+    margin-top: 40px;
+    font-size: 45px;
+    justify-content: right;
+
+    margin-left: auto;
+    margin-right: 45px;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.garis-bawah-weare {
+    background: #D10000;
+    width: 300px;
+    height: 5px;
+    margin-left: 304px;
+    margin-bottom: 50px;
+}
+
+.par-weare {
+    width: 550px;
+    margin-left: 55px;
+    margin-right: 45px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.wayang-position-weare {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 55px;
+    z-index: -10;
+}
+
+/* What We Do Card */
+.wedo {
+    background-color: white;
+    padding: 20px;
+    padding-right: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 70px;
+    margin-left: 300px;
+    height: 482px;
+    display: flex;
+}
+
+/* .auimgwedo {
+    margin-right: 0px;
+} */
+
+.autextwedo h1 {
+    margin-right: auto;
+    margin-left: 45px;
+    margin-top: 65px;
+    font-size: 45px;
+
+}
+
+.garis-bawah-wedo {
+    background: #D10000;
+    width: 300px;
+    height: 5px;
+    margin-left: 45px;
+    margin-bottom: 50px;
+}
+
+.par-wedo {
+    width: 550px;
+    margin-left: 45px;
+    margin-right: 61px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.wayang-position-wedo {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -450px;
+    z-index: -10;
+}
+
+/* Our Team Card */
+.text-ourteam {
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+
+.underline {
+    border-bottom: 3px solid #D10000;
+}
+
+.ourteam { 
+    /* width: 100%;
+    min-height: 100%; */
+    background: url("/src/img/megamendung.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+
+    /* padding: 20px;
+    padding-right: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 70px;
+    width: 1189px;
+    margin-left: auto;
+    height: 482px;
+    display: flex; */
+    /* position: relative; */
+}
+ 
+/* h1 { 
+    margin: 0 auto; 
+    margin-top: 100px; 
+    margin-bottom: 10px; 
+    padding-top: 30px; 
+} */
+
+.img-ourteam-pict {
+    margin-top: 20px;
+}
+
+/* Contact Us */
+.contactus {
+    margin: 120px auto;
+}
+
+.anyqueries {
+    background-color: white;
+    padding: 20px;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 650px;
+    height: 450px;
+    display: flex;
+    margin: 70px auto;
+}
+
+/* .anyqueriestext h1 {
+    margin-top: 40px;
+    font-size: 45px;
+    justify-content: right;
+} */
+
+.btn-anyqueries button{
+    background-color: #D10000;
+    color: white;
+    width: 150px;
+    height: 37px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 20px;
+    transition: all ease-out 0.3s;
+    border-radius: 10px;
+    margin-left: 37px;
+}
+
+.btn-anyqueries button:hover{
+    width: 150px;
+    height: 37px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 20px;
+    border: solid #D10000;
+    color: #D10000;
+    background: transparent;
+    
+}
+
+
+/* .btn-anyqueries {
+    padding: 10px 20px;
+    gap: 10px;
+
+    position: absolute;
+    margin-left: 37px;
+    margin-top: 15px;
+
+    background: #D10000;
+    color: white;
+    border-radius: 10px;
+} */
